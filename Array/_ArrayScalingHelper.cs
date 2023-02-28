@@ -100,7 +100,6 @@ namespace ModuenKang.Algorithm
                     => { lResult = new T[aHeight, aWidth]; },
                 (aIncrement, aTempCount, aSrcCoord, aDstCoord)
                     => {
-                        Console.WriteLine($"aIncrement: {aIncrement}, aTempCount: {aTempCount}, aSrcCoord: {aSrcCoord}, aDstCoord: {aDstCoord}");
                         Buffer.BlockCopy(
                             a2LJaggedArray[aSrcCoord.Item1],
                             aSrcCoord.Item2 * lTypeSize,
