@@ -23,7 +23,6 @@ namespace ModuenKang.DataStructure
         object?[] PopRange(int aLength);
         void Push(object? aItem);
         void PushRange(object?[] aItems);
-
         bool TryPeek(out object? aResult);
         bool TryPeekRange(out object?[] aResult, int aLength);
         bool TryPop(out object? aResult);
