@@ -3,6 +3,7 @@ namespace ModuenKang.DataStructure
     public abstract class AStack<T> : IStack<T>, IStack
     {
         public int Count => mCount;
+        public int Capacity => mLength;
         public const int DEFAULT_LENGTH = 32;
 
         protected int mLength;
